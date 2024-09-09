@@ -5,3 +5,4 @@ pandas
 numpy
 matplotlib
 einops
+scikit-learn
