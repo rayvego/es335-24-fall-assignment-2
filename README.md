@@ -1,14 +1,19 @@
-# Assignment 2 
+# Instructions to set up the project locally
+```bash
+pip3 install -r dependencies.txt
+```
+
+# Assignment 2
 
 **Total marks: 10 (This assignment total to 20, we will overall scale by a factor of 0.5)**
 
 ## Task 1 : Ascending the Gradient Descent [6 marks]
 
-Use the below dataset for Task 1: 
+Use the below dataset for Task 1:
 ```py
 np.random.seed(45)
 num_samples = 40
-    
+
 # Generate data
 x1 = np.random.uniform(-1, 1, num_samples)
 f_x = 3*x1 + 4
@@ -27,7 +32,7 @@ y = f_x + eps
 
 ## Task 2 : Reconstructing using Random Fourier Features (RFF) [3 marks]
 
-Begin by exploring the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/master/notebooks/siren.ipynb) that introduces the application of Random Fourier Features (RFF) for image reconstruction. 
+Begin by exploring the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/master/notebooks/siren.ipynb) that introduces the application of Random Fourier Features (RFF) for image reconstruction.
 
 1. **Image Reconstruction** - Choose any image you like. Use Random Fourier Features (RFF) and Linear Regression to learn the mapping from the image coordinates $(X, Y)$ to the pixel colors $(R, G, B)$. Here, $(X, Y)$ represents the coordinates of the pixels, and $(R, G, B)$ represents the color values at those coordinates. Display both the original image and the reconstructed image. Also, calculate and report the Root Mean Squared Error (MSE) and Peak Signal-to-Noise Ratio (PSNR) between the original and reconstructed images. **[1.5 Mark]**
 
@@ -38,12 +43,12 @@ Note : Please notice that generally PSNR is used for images while SNR is used fo
 ## Task 3 : Super-Resolution using Random Fourier Features (RFF)  [4 Marks]
 
 Begin by exploring the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/master/notebooks/siren.ipynb) that introduces the application of Random Fourier Features (RFF) for image reconstruction. Demonstrate the following applications using the cropped image from the notebook:
-    
+
 1.  Super-resolution: Perform superresolution on the image shown in notebook to enhance its resolution by factor 2. Show a qualitative comparison of original and reconstructed image. (i.e display original image and the image you created side by side) **[3 Marks]**
 
 2. The above only helps us with a qualitative comparison. Let us now do a quantitative comparison. Compute the below given metrics:  **[1 Marks]**
     - RMSE on predicted v/s ground truth high resolution image
-    - Peak SNR on predicted v/s ground truth high resolution image 
+    - Peak SNR on predicted v/s ground truth high resolution image
 
 Follow the below steps to execute this task:
 - Start with a 400x400 high-resolution image (the original image).
@@ -62,13 +67,13 @@ Use the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/m
 2. Consider a case where 900 pixels (30x30) are randomly missing from an image. Reconstruct the image using matrix factorization, plot the reconstructed image, and calculate the RMSE and PSNR metrics. Next, reconstruct the same image with the missing pixels using Random Fourier Features (RFF) and Linear Regression. Compute the RMSE and PSNR for both methods, and compare the results to see which performs better.**[3 Marks]**
 
 ## Task 5 : Image Compression using Matrix Factorisation [3 Marks]
-    
+
 You have an image patch of size (50x50) that you want to compress using matrix factorization. To do this, you'll split the patch $[N\times N]$ into two smaller matrices of size $[N\times r]$ and $[r\times N]$ using matrix factorization. Compute the compressed patch by multiplying these two matrices and compare the reconstructed image patch with the original patch. Compute the Root Mean Squared Error (RMSE) and Peak Signal-to-Noise Ratio (PSNR) between the original and reconstructed image patches.
 
 - Test different values for the low-rank $r = [5, 10, 25, 50]$.
 - Use Gradient Descent to learn the compressed matrices.
 - Display the reconstructed image patches, keeping the original pixel values outside the patch unchanged, and use your compressed matrix for the patch to show how well the reconstruction works.
-- Compute the RMSE and PSNR for each value of $r$. 
+- Compute the RMSE and PSNR for each value of $r$.
 
 Here is a reference set of patches that you can choose. You can chose an image of your liking and create patches. You can choose the image shown below as well. **[3 Marks]**
 
