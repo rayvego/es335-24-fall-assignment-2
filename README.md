@@ -1,8 +1,19 @@
 # Instructions to set up the project locally
 ```bash
+python3 -m venv env
+```
+Activating the environment on Windows:
+```bash
+env\Scripts\activate
+```
+Activating the environment on MacOS/Linux:
+```bash
+source env/bin/activate
+```
+Installing dependencies:
+```bash
 pip3 install -r dependencies.txt
 ```
-
 
 
 # Assignment 2
