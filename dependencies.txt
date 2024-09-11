@@ -7,3 +7,4 @@ matplotlib
 einops
 scikit-learn
 ipykernel -U --force-reinstall
+soundfile
