@@ -16,7 +16,20 @@ pip3 install -r dependencies.txt
 ```
 
 # Solutions
-Task-1: [`./task_1.ipynb`](./task_1.ipynb) \
+Task-1: [`./task_1.ipynb`](./task_1.ipynb)
+
+Full Batch: ![Full Batch](./Task1_Plot_figures/True_gradient.gif)
+
+Full Batch with Momentum: ![Full Batch with Momentum](./Task1_Plot_figures/True_grad_Momentum.gif)
+
+Stochastic Gradient: ![Stochastic Gradient](./Task1_Plot_figures/SG.gif)
+
+Stochastic Gradient with Momentum: ![Stochastic Gradient with Momentum](./Task1_Plot_figures/SG_Momentum.gif)
+
+Mini-batch Gradient Descent: ![Mini-batch Gradient Descent](./Task1_Plot_figures/Mini_batch.gif)
+
+Mini-batch Gradient Descent with Momentum: ![Mini-batch Gradient Descent with Momentum](./Task1_Plot_figures/Mini_batch_momentum.gif)
+
 Utility Functions: [`./utils.py`](./utils.py) \
 Task-2: [`./task_2_part_1.ipynb`](./task_1_part_2.ipynb) and [`./task_2_part_2.ipynb`](./task_1_part_2.ipynb) \
 Task-3: [`./task_3.ipynb`](./task_3.ipynb)\
