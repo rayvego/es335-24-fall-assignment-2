@@ -16,7 +16,7 @@ pip3 install -r dependencies.txt
 ```
 
 # Solutions
-Task-1: [`./task_1.ipynb`](./task_1.ipynb)
+Task-1: [`./task1/Task1.ipynb`](./task1/Task1.ipynb)
 
 Full Batch: ![Full Batch](./Task1_Plot_figures/True_gradient.gif)
 
