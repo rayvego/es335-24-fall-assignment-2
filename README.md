@@ -15,6 +15,14 @@ Installing dependencies:
 pip3 install -r dependencies.txt
 ```
 
+# Solutions
+Task-1: [`./task_1.ipynb`](./task_1.ipynb) \
+Utility Functions: [`./utils.py`](./utils.py) \
+Task-2: [`./task_2_part_1.ipynb`](./task_1_part_2.ipynb) and [`./task_2_part_2.ipynb`](./task_1_part_2.ipynb) \
+Task-3: [`./task_3.ipynb`](./task_3.ipynb)\
+Task-4: [`./task_4.ipynb`](./task_4.ipynb) \
+Task-5: [`./task_5.ipynb`](./task_5.ipynb)
+
 
 # Assignment 2
 
