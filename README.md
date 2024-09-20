@@ -29,6 +29,12 @@ pip3 install -r dependencies.txt
 |---------------------------------------|---------------------------------------------|
 | ![Mini-batch Gradient Descent](./Task1_Plot_figures/Mini_batch.gif) | ![Mini-batch Gradient Descent with Momentum](./Task1_Plot_figures/Mini_batch_momentum.gif) |
 
+Observations for Task 1:
+- The number of epochs requried have reduced significantly.
+- The graph tends to overshoot the optimal value and then comes back.
+- As I increase the value of gamma, that is the coeffieicent, more the overshooting happens.
+- In animation it is visible, that this term helps the algorithm easily bypass the place where the slope is not much, causing the algorithm to slow down in general case.
+- This might also help in cases, where the descent gets stuck in local minima, as it becomes easier to bypass that point because of the momentum.
 
 ## Utility Functions: [`./utils.py`](./utils.py) 
 This allows use to reuse certain functions like `factorize()` and `create_rff_features()` for multiple tasks.
@@ -72,7 +78,6 @@ y = f_x + eps
 3. Implement full-batch, mini-batch and stochastic gradient descent. Calculate the average number of iterations required for each method to get sufficiently close to the optimal solution, where "sufficiently close" means within a distance of $\epsilon$ (or $\epsilon$-neighborhood)  from the minimum value of the loss function. Visualize the convergence process for 15 epochs. Choose $\epsilon = 0.001$ for convergence criteria. Which optimization process takes a larger number of epochs to converge, and why? Show the contour plots for different epochs (or show an animation/GIF) for visualisation of optimisation process. Also, make a plot for Loss v/s epochs for all the methods. **[2 marks]**
 
 4. Explore the article [here](https://machinelearningmastery.com/gradient-descent-with-momentum-from-scratch/#:~:text=Momentum%20is%20an%20extension%20to,spots%20of%20the%20search%20space.) on gradient descent with momentum. Implement gradient descent with momentum for the dataset. Visualize the convergence process for 15 steps. Compare the average number of steps taken with gradient descent (for variants full batch and stochastic) with momentum to that of vanilla gradient descent to converge to an $\epsilon$-neighborhood for both dataset. Choose $\epsilon = 0.001$. Write down your observations. Show the contour plots for different epochs for momentum implementation. Specifically, show all the vectors: gradient, current value of theta, momentum, etc. **[2 marks]**
-
 
 ## Task 2 : Reconstructing using Random Fourier Features (RFF) [3 marks]
 
