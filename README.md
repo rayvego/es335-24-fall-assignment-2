@@ -35,15 +35,15 @@ This allows use to reuse certain functions like `factorize()` and `create_rff_fe
 
 ## Task-2: [`./task_2_part_1.ipynb`](./task_1_part_2.ipynb) and [`./task_2_part_2.ipynb`](./task_1_part_2.ipynb) 
 
-### Task-3: [`./task_3.ipynb`](./task_3.ipynb)
+## Task-3: [`./task_3.ipynb`](./task_3.ipynb)
 
-### Task-4: [`./task_4.ipynb`](./task_4.ipynb)
-#### Question 1
+## Task-4: [`./task_4.ipynb`](./task_4.ipynb)
+### Question 1
 ![task_4_1](./task_4_5_plots/task_4_1.png)
-#### Question 2
+### Question 2
 ![task_4_2](./task_4_5_plots/task_4_2.png)
 
-### Task-5: [`./task_5.ipynb`](./task_5.ipynb)
+## Task-5: [`./task_5.ipynb`](./task_5.ipynb)
 ![task_5](./task_4_5_plots/task_5.png)
 
 
