@@ -16,25 +16,35 @@ pip3 install -r dependencies.txt
 ```
 
 # Solutions
-Task-1: [`./task1/Task1.ipynb`](./task1/Task1.ipynb)
+## Task-1: [`./task1/Task1.ipynb`](./task1/Task1.ipynb)
+| Full Batch                           | Full Batch with Momentum                   |
+|--------------------------------------|--------------------------------------------|
+| ![Full Batch](./Task1_Plot_figures/True_gradient.gif) | ![Full Batch with Momentum](./Task1_Plot_figures/True_grad_Momentum.gif) |
 
-Full Batch: ![Full Batch](./Task1_Plot_figures/True_gradient.gif)
+| Stochastic Gradient                  | Stochastic Gradient with Momentum          |
+|--------------------------------------|--------------------------------------------|
+| ![Stochastic Gradient](./Task1_Plot_figures/SG.gif) | ![Stochastic Gradient with Momentum](./Task1_Plot_figures/SG_Momentum.gif) |
 
-Full Batch with Momentum: ![Full Batch with Momentum](./Task1_Plot_figures/True_grad_Momentum.gif)
+| Mini-batch Gradient Descent           | Mini-batch Gradient Descent with Momentum   |
+|---------------------------------------|---------------------------------------------|
+| ![Mini-batch Gradient Descent](./Task1_Plot_figures/Mini_batch.gif) | ![Mini-batch Gradient Descent with Momentum](./Task1_Plot_figures/Mini_batch_momentum.gif) |
 
-Stochastic Gradient: ![Stochastic Gradient](./Task1_Plot_figures/SG.gif)
 
-Stochastic Gradient with Momentum: ![Stochastic Gradient with Momentum](./Task1_Plot_figures/SG_Momentum.gif)
+## Utility Functions: [`./utils.py`](./utils.py) 
+This allows use to reuse certain functions like `factorize()` and `create_rff_features()` for multiple tasks.
 
-Mini-batch Gradient Descent: ![Mini-batch Gradient Descent](./Task1_Plot_figures/Mini_batch.gif)
+## Task-2: [`./task_2_part_1.ipynb`](./task_1_part_2.ipynb) and [`./task_2_part_2.ipynb`](./task_1_part_2.ipynb) 
 
-Mini-batch Gradient Descent with Momentum: ![Mini-batch Gradient Descent with Momentum](./Task1_Plot_figures/Mini_batch_momentum.gif)
+### Task-3: [`./task_3.ipynb`](./task_3.ipynb)
 
-Utility Functions: [`./utils.py`](./utils.py) \
-Task-2: [`./task_2_part_1.ipynb`](./task_1_part_2.ipynb) and [`./task_2_part_2.ipynb`](./task_1_part_2.ipynb) \
-Task-3: [`./task_3.ipynb`](./task_3.ipynb)\
-Task-4: [`./task_4.ipynb`](./task_4.ipynb) \
-Task-5: [`./task_5.ipynb`](./task_5.ipynb)
+### Task-4: [`./task_4.ipynb`](./task_4.ipynb)
+#### Question 1
+![task_4_1](./task_4_5_plots/task_4_1.png)
+#### Question 2
+![task_4_2](./task_4_5_plots/task_4_2.png)
+
+### Task-5: [`./task_5.ipynb`](./task_5.ipynb)
+![task_5](./task_4_5_plots/task_5.png)
 
 
 # Assignment 2
